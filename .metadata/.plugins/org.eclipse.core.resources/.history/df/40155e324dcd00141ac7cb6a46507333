@@ -1,0 +1,115 @@
+package com.greencloud.website.db.configuration;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+
+@ConfigurationProperties(prefix="spring.datasource", ignoreUnknownFields=false)
+public class TomcatPoolDataSourceProperties {
+	
+	private String driverClassName;
+	private String url;
+	private String username;
+	private String password;
+	private int maxActive = 100;
+	private int maxIdle = 8;
+	private int minIdle = 8;
+	private int initialSize = 10;
+	private String validationQuery;
+	
+	public String getDriverClassName() {
+		return driverClassName;
+	}
+	public void setDriverClassName(String driverClassName) {
+		this.driverClassName = driverClassName;
+	}
+	public String getUrl() {
+		return url;
+	}
+	public void setUrl(String url) {
+		this.url = url;
+	}
+	public String getUsername() {
+		return username;
+	}
+	public void setUsername(String username) {
+		this.username = username;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public int getMaxActive() {
+		return maxActive;
+	}
+	public void setMaxActive(int maxActive) {
+		this.maxActive = maxActive;
+	}
+	public int getMaxWait() {
+		return maxWait;
+	}
+	public void setMaxWait(int maxWait) {
+		this.maxWait = maxWait;
+	}
+	public int getMaxIdle() {
+		return maxIdle;
+	}
+	public void setMaxIdle(int maxIdle) {
+		this.maxIdle = maxIdle;
+	}
+	public int getMinIdle() {
+		return minIdle;
+	}
+	public void setMinIdle(int minIdle) {
+		this.minIdle = minIdle;
+	}
+	public boolean isPoolPreparedStatements() {
+		return poolPreparedStatements;
+	}
+	public void setPoolPreparedStatements(boolean poolPreparedStatements) {
+		this.poolPreparedStatements = poolPreparedStatements;
+	}
+	public boolean isDefaultAutoCommit() {
+		return defaultAutoCommit;
+	}
+	public void setDefaultAutoCommit(boolean defaultAutoCommit) {
+		this.defaultAutoCommit = defaultAutoCommit;
+	}
+	public boolean isTestOnBorrow() {
+		return testOnBorrow;
+	}
+	public void setTestOnBorrow(boolean testOnBorrow) {
+		this.testOnBorrow = testOnBorrow;
+	}
+	public boolean isTestWhileIdle() {
+		return testWhileIdle;
+	}
+	public void setTestWhileIdle(boolean testWhileIdle) {
+		this.testWhileIdle = testWhileIdle;
+	}
+	public String getValidationQuery() {
+		return validationQuery;
+	}
+	public void setValidationQuery(String validationQuery) {
+		this.validationQuery = validationQuery;
+	}
+	public boolean isRemoveAbandoned() {
+		return removeAbandoned;
+	}
+	public void setRemoveAbandoned(boolean removeAbandoned) {
+		this.removeAbandoned = removeAbandoned;
+	}
+	public boolean isLogAbandoned() {
+		return logAbandoned;
+	}
+	public void setLogAbandoned(boolean logAbandoned) {
+		this.logAbandoned = logAbandoned;
+	}
+	public String getRemoveAbandonedTimeout() {
+		return removeAbandonedTimeout;
+	}
+	public void setRemoveAbandonedTimeout(String removeAbandonedTimeout) {
+		this.removeAbandonedTimeout = removeAbandonedTimeout;
+	}
+	
+}

@@ -1,0 +1,8 @@
+package com.greencluod.website.db.mybatis.mapper;
+
+import com.greencloud.website.model.User;
+
+
+public interface UserMapper {
+	User selectByPrimaryKey(String ID);
+}

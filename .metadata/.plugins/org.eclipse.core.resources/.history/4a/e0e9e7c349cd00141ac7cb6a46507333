@@ -1,0 +1,5 @@
+package com.greencluod.website.db.mybatis.mapper;
+
+public interface UserMapper {
+
+}

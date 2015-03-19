@@ -1,0 +1,16 @@
+1426666177455	Rename resource 'spring.datasource.properties'
+1426666580118	Rename type 'SpringPoolDateProperties'
+1426667782456	Delete element
+1426668190899	Rename type 'SpringPoolDataSourceProperties'
+1426670764287	Rename resource 'UserMapper.xm'
+1426671798405	Copy file
+1426671820893	Delete element
+1426676993120	Delete elements
+1426676995171	Delete element
+1426677085801	Delete element
+1426735776447	Move compilation unit
+1426735780356	Delete element
+1426742739224	Rename package 'com.greencluod.website.db.mybatis.mapper'
+1426744971284	Rename field 'sqlSession'
+1426746718566	Delete element
+1426746723519	Delete element

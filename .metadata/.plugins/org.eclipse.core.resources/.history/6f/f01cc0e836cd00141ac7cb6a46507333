@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>website-admin</artifactId>
+  <packaging>war</packaging>
+  
+  <!-- Inherit defaults from Spring Boot -->
+  <parent>
+      <groupId>com.greencloud.website</groupId>
+      <artifactId>website-parent</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+      <relativePath>../website-parent/pom.xml</relativePath>
+  </parent>
+  
+  <properties>
+  </properties>
+
+  <dependencies>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+  </dependencies>
+  
+  
+  <build>
+    <finalName>website-admin</finalName>
+    <!-- Jar dependencies archived to Project -->
+    <plugins>
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+        </plugin>
+    </plugins>
+  </build>
+</project>

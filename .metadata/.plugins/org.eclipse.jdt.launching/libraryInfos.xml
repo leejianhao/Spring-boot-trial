@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="D:\Java\jre6" version="1.6.0_38">
+<bootpath>
+<entry path="D:\Java\jre6\lib\resources.jar"/>
+<entry path="D:\Java\jre6\lib\rt.jar"/>
+<entry path="D:\Java\jre6\lib\sunrsasign.jar"/>
+<entry path="D:\Java\jre6\lib\jsse.jar"/>
+<entry path="D:\Java\jre6\lib\jce.jar"/>
+<entry path="D:\Java\jre6\lib\charsets.jar"/>
+<entry path="D:\Java\jre6\lib\modules\jdk.boot.jar"/>
+<entry path="D:\Java\jre6\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\Java\jre6\lib\ext"/>
+<entry path="C:\windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\Java\jre6\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="D:\Java\jdk1.6.0_38\jre" version="1.6.0_38">
+<bootpath>
+<entry path="D:\Java\jdk1.6.0_38\jre\lib\resources.jar"/>
+<entry path="D:\Java\jdk1.6.0_38\jre\lib\rt.jar"/>
+<entry path="D:\Java\jdk1.6.0_38\jre\lib\sunrsasign.jar"/>
+<entry path="D:\Java\jdk1.6.0_38\jre\lib\jsse.jar"/>
+<entry path="D:\Java\jdk1.6.0_38\jre\lib\jce.jar"/>
+<entry path="D:\Java\jdk1.6.0_38\jre\lib\charsets.jar"/>
+<entry path="D:\Java\jdk1.6.0_38\jre\lib\modules\jdk.boot.jar"/>
+<entry path="D:\Java\jdk1.6.0_38\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\Java\jdk1.6.0_38\jre\lib\ext"/>
+<entry path="C:\windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\Java\jdk1.6.0_38\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="D:\Java\jdk1.6.0_38" version="1.6.0_38">
+<bootpath>
+<entry path="D:\Java\jdk1.6.0_38\jre\lib\resources.jar"/>
+<entry path="D:\Java\jdk1.6.0_38\jre\lib\rt.jar"/>
+<entry path="D:\Java\jdk1.6.0_38\jre\lib\sunrsasign.jar"/>
+<entry path="D:\Java\jdk1.6.0_38\jre\lib\jsse.jar"/>
+<entry path="D:\Java\jdk1.6.0_38\jre\lib\jce.jar"/>
+<entry path="D:\Java\jdk1.6.0_38\jre\lib\charsets.jar"/>
+<entry path="D:\Java\jdk1.6.0_38\jre\lib\modules\jdk.boot.jar"/>
+<entry path="D:\Java\jdk1.6.0_38\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\Java\jdk1.6.0_38\jre\lib\ext"/>
+<entry path="C:\windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\Java\jdk1.6.0_38\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

@@ -1,0 +1,13 @@
+#datesource
+#spring boot prefer the Tomcat pooling DataSource for its performance and concurrency.
+tomcat.datasource.url=jdbc:mysql://localhost:3306/platform?useUnicode=true&characterEncoding=utf-8
+tomcat.datasource.username=root
+tomcat.datasource.password=ljh
+tomcat.datasource.driverClassName=com.mysql.jdbc.Driver
+tomcat.datasource.maxActive=30
+tomcat.datasource.maxWait=30
+tomcat.datasource.maxIdle=5
+tomcat.datasource.minIdle=3
+tomcat.datasource.testOnBorrow=false
+tomcat.datasource.testWhileIdle=true
+tomcat.datasource.validationQuery=select 1

@@ -1,0 +1,6 @@
+package com.greencluod.website.db.mybatis.mapper;
+
+import at.ebssoftware.ebs.timesheet.model.User;
+public interface UserMapper {
+	User selectByPrimaryKey(String ID);
+}

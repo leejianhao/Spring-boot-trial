@@ -1,0 +1,14 @@
+package com.greencloud.website.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class LoginController {
+	
+	@RequestMapping(value="/login", method=RequestMethod.GET)
+	public String login(String username, String password, String checkcode, Model model, HttpSession session) {
+		User user = userService.findByName(username);
+		model.addAttribute(user);
+		return "hello";
+	}
+}

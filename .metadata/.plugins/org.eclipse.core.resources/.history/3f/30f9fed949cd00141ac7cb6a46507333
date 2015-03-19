@@ -1,0 +1,4 @@
+import at.ebssoftware.ebs.timesheet.model.User;
+public interface UserMapper {
+User selectByPrimaryKey(String ID);
+}
